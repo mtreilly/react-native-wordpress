@@ -20,4 +20,7 @@ Finally you need a WordPress site to query, the query url is at the top of the f
 to what your own wordpress url
 
 There is also a wordpress folder in the project and this contains the 
-functions.php of the twentyeighteen theme with the REST Api modifications
+functions.php of the twentyseventeen theme with the REST Api modifications
+
+You will need to modifiy the firebase url to work with your project url. WordPress sends a HTTP PUT request on every update
+The url is at the end of the functions.php
